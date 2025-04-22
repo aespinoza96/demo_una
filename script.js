@@ -3,3 +3,8 @@
 */
 
 console.log('Hola GitHub!');
+
+function deleteCard(button) {
+  const card = button.parentElement;
+  card.remove();
+}
